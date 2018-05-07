@@ -1,0 +1,119 @@
+.header__register-btn {
+    margin-left: 15px;
+    display: inline-block;
+}
+
+.inline-flex {
+    display: inline-flex;
+}
+
+.table-striped a {
+    color: #3690b3;
+}
+
+.container {
+    margin: auto;
+    padding: 20px 0px;
+}
+
+.trips__table__header .row{
+    margin-bottom: 5px;
+}
+.trips__table__header__text {
+    margin-bottom: 1rem;
+}
+
+.trips__table__header__text h3 {
+    margin: auto;
+}
+.trips__table__header__filter__end {
+    margin-left: 20%;
+}
+
+.trips__table__body td {
+    min-width: 200px;
+    min-height: 30px;
+    overflow: hidden;
+}
+
+.trips__table__body .edit td {
+    padding: 0.65rem;
+}
+
+.trips__table__body tr > td:first-child {
+    min-width: 30px;
+}
+
+.trips__table__actions .oi {
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.universal__toast__continaer {
+    position: fixed;
+    bottom: 10%;
+    left: 0;
+    right: 0;
+}
+.full__width {
+    width: 100%;
+}
+.hidden {
+    display: none;
+}
+
+.right__align {
+    text-align: right;
+}
+
+.pull_left {
+    float: left;
+}
+
+.pull_right {
+    float: right;
+}
+
+.hide_overflow {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.profile__page__containers .row {
+    padding: 10px;
+}
+
+.jumbotron {
+    margin-top: 40px;
+    border-radius: 10px;
+    color: #3690b3;
+}
+
+.jumbotron .container-fluid {
+    margin-top: 100px;
+}
+
+.navbar {
+    padding: 10px;
+    background-color: #9ca5b6;
+}
+
+body {
+    background-color: #f4f2f0;
+}
+
+a {
+    color: #b8e8ea;
+}
+
+
+
+@media print {
+    .trips__table__header.container .row div {
+        display: none;
+    }
+
+    .trips__table__actions {
+        display: none;
+    }
+}
